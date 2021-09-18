@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0; 
+    font-family: fantasy;
+}
+
+.navigation{
+background-color: tomato;
+margin: 0;
+list-style-type: none;
+padding: 0;
+display: flex;
+justify-content:space-between;
+flex-direction: row-reverse;
+}
+.left{
+    display: flex;
+}
+/*selects a with class = "navigation"*/
+.navigation a{ 
+text-decoration: none;
+color: white;
+}
+
+.navigation li{
+    padding: 10px;
+}   
+
+.navigation li:hover a{ /*":" condition "hover" event -*/
+color: tomato;
+}
+.navigation li:hover{
+    background-color: white;
+}
+/*style cups*/ 
+.cups{
+ text-align: center;   
+}
+.cups img{
+  box-shadow: 2px 2px grey;  
+  border-radius:20px;
+  width: 15%;
+  
+}
+.cups img:hover{
+    cursor: pointer;
+    border: 1px solid grey;
+    width: 14%;
+}
+#page-header{
+    text-align: center;
+    color: tomato;
+}
+/*when width is 600 or less apply the following style, other: apply the style above*/
+@media(max-width: 600px) {
+body{
+    background-color: teal;
+}
+}
+button{
+
+    background-color: tomato;
+    font-family: fantasy;
+    padding: 16px;
+    font-size: 20px;
+    border:none;
+    float: left;
+    
+}

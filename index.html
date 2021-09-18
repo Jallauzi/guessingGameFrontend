@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/nav.css"> <!--link-->
+    <title>Home</title>
+</head>
+<body>
+    <ul class = "navigation">
+        <div class="left">
+             <li><a href="index.html">Home</a></li>
+            <li><a href="./pages/score.html">High Score</a></li></div>
+       
+        <li><a href="./pages/login.html">Login</a></li>
+    </ul>
+    <h1 id="page-header">Guess Under Which Cup The Marble Is</h1>
+    <div class="cups"> <!--div: division / for organization purposes -->
+        <img src="./images/cup.jpg" class="display-image" id="1" alt=""> <!--alt: alternative-->
+        <img src="./images/cup.jpg" class="display-image" id="2" alt="">
+        <img src="./images/cup.jpg" class="display-image" id="3" alt="">
+        <img src="./images/cup.jpg" class="display-image" id="4" alt="">
+        <img src="./images/cup.jpg" class="display-image" id="5" alt=""> <!--shift >alt>F = organization -->
+    </div>
+    <div>Your Score is <span id="scoreValue">0</span></div> <!--span id: to be able to change the value-->
+    <div>
+        <button onclick="restartGame()">Restart Game</button> <!--function call-->
+    </div>
+    <script src="js/app.js"></script> <!--link with JavaScript-->
+</body>
+</html>
+

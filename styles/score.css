@@ -1,0 +1,17 @@
+.score-box{
+    text-align: center;
+    list-style-type: none;
+    box-shadow: 2px 2px grey;
+    border-radius: 20px;
+    width: 80%;
+    margin: auto;
+}
+.score-box .score-element{
+padding: 15px; 
+display: flex;
+justify-content: space-between;
+}
+.header{
+    background-color: tomato;
+    color: white;
+}
